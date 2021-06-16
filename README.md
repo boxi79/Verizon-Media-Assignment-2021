@@ -1,4 +1,6 @@
-# Verizon Media Assignment 
+# Verizon Media Assignment
+
+[Link](https://docs.google.com/document/d/1QE7_X8aRsINk_keNgiDK_d4I8e5F-6l0gvKgCm7BP3Y/)
 
 ## Available Scripts
 
