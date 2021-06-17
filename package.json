@@ -20,7 +20,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "npm run build && node ./server.js",
     "build": "react-scripts build",
     "prod": "npm run build && node ./server.js",
     "test": "react-scripts test",
@@ -29,7 +30,6 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "airbnb",
       "react-app/jest"
     ],
     "rules": {
@@ -47,8 +47,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "eslint-config-airbnb": "^18.2.1"
   }
 }
